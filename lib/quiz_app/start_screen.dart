@@ -30,7 +30,7 @@ class StartScreen extends StatelessWidget {
           Text(
             'Learn Flutter the fun way!',
             style: GoogleFonts.lato(
-                color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold),
+                color: Colors.white, fontSize: 28, fontWeight: FontWeight.bold),
           ),
           const SizedBox(
             height: 30,
@@ -38,12 +38,14 @@ class StartScreen extends StatelessWidget {
           OutlinedButton.icon(
               onPressed: startQuiz,
               icon: const Icon(Icons.arrow_right_alt),
-              style: OutlinedButton.styleFrom(foregroundColor: Colors.white),
+              style: OutlinedButton.styleFrom(
+                  foregroundColor: Colors.white,
+                  side: const BorderSide(color: Colors.white, width: 1)),
               label: Text(
                 'Start Quiz',
                 style: GoogleFonts.lato(
                     color: Colors.white,
-                    fontSize: 20,
+                    fontSize: 18,
                     fontWeight: FontWeight.w400),
               )),
         ],

@@ -1,5 +1,5 @@
-import 'package:first_app/questions_screen.dart';
-import 'package:first_app/start_screen.dart';
+import 'package:first_app/quiz_app/questions_screen.dart';
+import 'package:first_app/quiz_app/start_screen.dart';
 import 'package:flutter/material.dart';
 
 class Quiz extends StatefulWidget {
